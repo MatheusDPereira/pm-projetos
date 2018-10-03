@@ -1,0 +1,39 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    padding: 70px 40px 70px 110px;
+    background-color: #4a4a4a;
+    margin-bottom: 4px;
+    background-image: url(Quadradinho.png);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+li:hover {
+    background-color: #6e6d6e;
+}
+li.done {
+    background-color: #27ae60;
+    background-image: url(Done.png);
+}
+li.done:hover {
+    background-color: #52be7f;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    display: block;
+    background-image: url(Setinha.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+    -webkit-font-smoothing: antialiased
+    
+  
+}
