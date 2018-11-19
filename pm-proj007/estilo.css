@@ -1,0 +1,244 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+header nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 18px 90px 0px 0px;
+    -webkit-font-smoothing: antialiased;
+}
+header nav li:last-child {
+    border: 1px solid #ffffff;
+    padding: 15px 45px 15px 45px;
+    border-radius: 3px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+h1 {
+    background-image: url(10-layers.png);
+    background-repeat: no-repeat;
+    width: 177px;
+    height: 78px;
+}
+header {
+    background-color: #000;
+    height: 0px;
+}
+header span {
+    visibility: hidden;
+}
+
+
+
+#topo {
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 828px;
+}
+#topo .texto {
+    margin-top: 190px;
+    text-align: center;
+}
+.texto h2 {
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: -20px;
+    -webkit-font-smoothing: antialiased;
+}
+.texto p {
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 300; 
+    margin-bottom: 30px;
+}
+.botao {
+    font-size: 36px;
+    font-weight: 300;
+    background-color: #ff3d7f;
+    display: block;
+    border-radius: 3px;
+    box-shadow: 0 6px 0 #a32751;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+
+#conheca {
+}
+#conheca img {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+#conheca {
+    border-bottom: 2px solid #511099; 
+}
+#conheca .conheca {
+    width: 450px;
+    margin-top: 90px;
+    margin-right: 35px;
+}
+#conheca .conheca h2 {
+    font-size: 36px;
+}
+#conheca .conheca p {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: -10px;
+    padding-bottom: 35px;
+}
+#conheca .conheca a {
+    text-align: center;
+    width: 80%;
+}
+
+
+
+#depoimento {
+    height: 439px;
+    background: #ebe8fb;
+}
+#depoimento .depoimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#depoimento .depoimento h2 {
+    background-image: url(Woman.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 151px;
+    height: 150px;
+    margin-top: 65px;   
+    margin-bottom: -5px;
+}
+#depoimento .depoimento h2 span {
+    visibility: hidden;
+}
+#depoimento p {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+#depoimento .depoimento strong {
+    font-size: 24px;
+    margin-top: -20px;
+}
+
+
+
+#convite {
+    height: 424px;
+    background-image: url(fundo-convite.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid #ffffff;
+}
+#convite .box {
+    background-color: #ffffff;
+    opacity: 0.89;
+    width: 70%;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 153px;
+}
+#convite form {
+    margin-left: 40px;  
+    display: flex;
+}
+#convite form input {
+    width: 458px;
+    font-size: 23px;
+    border: none;
+    font-weight: 400;
+    margin-top: 35px;
+
+}
+#convite form button {
+    background-color: transparent;
+    border: none;
+    background-image: url(5-layers.png);
+    background-repeat: no-repeat;
+    width: 87px;
+    height: 43px;
+    margin-top: 35px;
+}
+::-webkit-input-placeholder {
+    color: #4a4a4a;
+}
+
+
+
+footer {
+    height: 94px;
+    background-color: #2a0157;
+}
+footer .container p {
+    margin: 0 auto;
+    margin-top: 35px;
+    color: #ffffff;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+
+
+@media (max-width: 600px) {
+    header nav {
+        display: none;
+    }
+    header h1 {
+        margin-left: 20px;
+    } 
+    #topo {
+        padding: 20px;
+    }
+    #conheca .container {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #conheca .conheca {
+        width: 300px;
+        margin-top: -50px;
+    }
+    #conheca .conheca p {
+        margin-bottom: -15px;
+    }
+    #conheca .conheca a {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    #depoimento .container {
+        display: block;
+    }
+    #convite {
+        padding: 20px
+    }
+    #convite form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #convite input {
+        background-color: transparent;
+    }
+    #convite .box {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+}

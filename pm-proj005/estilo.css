@@ -1,22 +1,68 @@
 body {
     background-color: #9b9b9b;
+    font-family: 'Roboto';
+    padding: 80px;
+  }
+
+table {
+    width: 100%;
+    background-color: #fff;
+    border-spacing: 0;
+    border-radius: 0px 0px 3px 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
 }
-.tabela {
-    background-color: #ffffff;
-    margin: 92px;
-    }
-h2 {
-   padding-left: 20px;
-    padding-top: 25px;
+
+caption{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #fff;
+    text-align: left;
+    padding: 20px;
+    border-radius: 3px 3px 0px 0px;  
+    box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.26);
+    -webkit-font-smoothing: antialiased;
 }
-.tabela .head {
-    border-bottom: 1px solid #f8f8f8;
-    padding: 15px 80px 15px 30px
+
+td, th{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-.tabela .head:hover {
+
+thead tr:hover, tbody tr:hover {
     background-color: #eeeeee;
+
 }
-input {
 
-
+tfoot {
+    text-align: right;
+}
+thead th {
+    text-align: left;
+    font-size: 13px;
+    font-weight: 500;
+}
+tbody td {
+    font-size: 13px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+tbody td:first-child, thead th:first-child {
+    padding: 15px;
+    text-align: center;
+}
+tfoot td {
+    padding-right: 10px;
+    opacity: 0.5;
+}
+span {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+img {
+    margin-right: 20px;
+    margin-left: 20px 
+}
+select {
+    border: none;
 }
